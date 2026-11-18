@@ -1,0 +1,446 @@
+
+====================================================
+   COMMUNITY BOOK EXCHANGE COORDINATOR (CA2)
+====================================================
+1. Register new community book
+2. View all books
+3. Search by ID & run audit
+4. Update book status/details
+5. Search by title
+6. View books of one donor
+7. System statistics
+8. Exit
+Enter your choice (1-8): 
+============= PERSISTENT COMMUNITY BOOK LISTINGS =============
+[INFO] No community books stored yet.
+
+====================================================
+   COMMUNITY BOOK EXCHANGE COORDINATOR (CA2)
+====================================================
+1. Register new community book
+2. View all books
+3. Search by ID & run audit
+4. Update book status/details
+5. Search by title
+6. View books of one donor
+7. System statistics
+8. Exit
+Enter your choice (1-8): 
+[STATISTICS] Total persistent community listings in file: 0
+[STORAGE]    Fixed binary record size: 224 bytes
+
+====================================================
+   COMMUNITY BOOK EXCHANGE COORDINATOR (CA2)
+====================================================
+1. Register new community book
+2. View all books
+3. Search by ID & run audit
+4. Update book status/details
+5. Search by title
+6. View books of one donor
+7. System statistics
+8. Exit
+Enter your choice (1-8): 
+--- Register Book for Community Exchange ---
+Enter unique Listing ID (1 - 99999): Enter book title (2 - 58 chars): Enter author name (1 - 38 chars): Enter genre / category (1 - 28 chars): Enter donor / depositor name (1 - 38 chars): Enter kiosk / shelf location (e.g. North-Wing-Shelf-A): Enter condition grade (1:Poor 2:Fair 3:Good 4:Very Good 5:Like New): 
+[SUCCESS] Book persisted to ../data/books.dat with ID: 101
+
+====================================================
+   COMMUNITY BOOK EXCHANGE COORDINATOR (CA2)
+====================================================
+1. Register new community book
+2. View all books
+3. Search by ID & run audit
+4. Update book status/details
+5. Search by title
+6. View books of one donor
+7. System statistics
+8. Exit
+Enter your choice (1-8): 
+--- Register Book for Community Exchange ---
+Enter unique Listing ID (1 - 99999): Enter book title (2 - 58 chars): Enter author name (1 - 38 chars): Enter genre / category (1 - 28 chars): Enter donor / depositor name (1 - 38 chars): Enter kiosk / shelf location (e.g. North-Wing-Shelf-A): Enter condition grade (1:Poor 2:Fair 3:Good 4:Very Good 5:Like New): 
+[SUCCESS] Book persisted to ../data/books.dat with ID: 102
+
+====================================================
+   COMMUNITY BOOK EXCHANGE COORDINATOR (CA2)
+====================================================
+1. Register new community book
+2. View all books
+3. Search by ID & run audit
+4. Update book status/details
+5. Search by title
+6. View books of one donor
+7. System statistics
+8. Exit
+Enter your choice (1-8): 
+--- Register Book for Community Exchange ---
+Enter unique Listing ID (1 - 99999): Enter book title (2 - 58 chars): Enter author name (1 - 38 chars): Enter genre / category (1 - 28 chars): Enter donor / depositor name (1 - 38 chars): Enter kiosk / shelf location (e.g. North-Wing-Shelf-A): Enter condition grade (1:Poor 2:Fair 3:Good 4:Very Good 5:Like New): 
+[SUCCESS] Book persisted to ../data/books.dat with ID: 103
+
+====================================================
+   COMMUNITY BOOK EXCHANGE COORDINATOR (CA2)
+====================================================
+1. Register new community book
+2. View all books
+3. Search by ID & run audit
+4. Update book status/details
+5. Search by title
+6. View books of one donor
+7. System statistics
+8. Exit
+Enter your choice (1-8): 
+[STATISTICS] Total persistent community listings in file: 3
+[STORAGE]    Fixed binary record size: 224 bytes
+
+====================================================
+   COMMUNITY BOOK EXCHANGE COORDINATOR (CA2)
+====================================================
+1. Register new community book
+2. View all books
+3. Search by ID & run audit
+4. Update book status/details
+5. Search by title
+6. View books of one donor
+7. System statistics
+8. Exit
+Enter your choice (1-8): 
+============= PERSISTENT COMMUNITY BOOK LISTINGS =============
+--------------------------------------------------------
+ Listing ID      : 101
+ Title           : The Alchemist
+ Author          : Paulo Coelho
+ Genre           : Fiction
+ Deposited By    : Rahul Sharma
+ Kiosk Location  : North-Wing-Shelf-A
+ Condition (1-5) : 4 / 5
+ Status          : Available for Pickup
+--------------------------------------------------------
+--------------------------------------------------------
+ Listing ID      : 102
+ Title           : Wings of Fire
+ Author          : A P J Abdul Kalam
+ Genre           : Biography
+ Deposited By    : Priya Singh
+ Kiosk Location  : Kiosk-NorthBlock
+ Condition (1-5) : 5 / 5
+ Status          : Available for Pickup
+--------------------------------------------------------
+--------------------------------------------------------
+ Listing ID      : 103
+ Title           : Atomic Habits
+ Author          : James Clear
+ Genre           : Self-Help
+ Deposited By    : Rahul Sharma
+ Kiosk Location  : East-Shelf-B
+ Condition (1-5) : 2 / 5
+ Status          : Available for Pickup
+--------------------------------------------------------
+Total persistent records shown: 3
+
+====================================================
+   COMMUNITY BOOK EXCHANGE COORDINATOR (CA2)
+====================================================
+1. Register new community book
+2. View all books
+3. Search by ID & run audit
+4. Update book status/details
+5. Search by title
+6. View books of one donor
+7. System statistics
+8. Exit
+Enter your choice (1-8): 
+Enter Listing ID to search: 
+[MATCH FOUND at byte offset 224]
+--------------------------------------------------------
+ Listing ID      : 102
+ Title           : Wings of Fire
+ Author          : A P J Abdul Kalam
+ Genre           : Biography
+ Deposited By    : Priya Singh
+ Kiosk Location  : Kiosk-NorthBlock
+ Condition (1-5) : 5 / 5
+ Status          : Available for Pickup
+--------------------------------------------------------
+
+[AUDIT LOG] Quality audit for Listing #102
+ - Title length : 13 characters
+ - Condition    : Premium / Recommended for Community Spotlight
+
+====================================================
+   COMMUNITY BOOK EXCHANGE COORDINATOR (CA2)
+====================================================
+1. Register new community book
+2. View all books
+3. Search by ID & run audit
+4. Update book status/details
+5. Search by title
+6. View books of one donor
+7. System statistics
+8. Exit
+Enter your choice (1-8): 
+Enter Listing ID to search: 
+[NOT FOUND] No record with Listing ID 999.
+
+====================================================
+   COMMUNITY BOOK EXCHANGE COORDINATOR (CA2)
+====================================================
+1. Register new community book
+2. View all books
+3. Search by ID & run audit
+4. Update book status/details
+5. Search by title
+6. View books of one donor
+7. System statistics
+8. Exit
+Enter your choice (1-8): 
+Enter title or part of it: --------------------------------------------------------
+ Listing ID      : 103
+ Title           : Atomic Habits
+ Author          : James Clear
+ Genre           : Self-Help
+ Deposited By    : Rahul Sharma
+ Kiosk Location  : East-Shelf-B
+ Condition (1-5) : 2 / 5
+ Status          : Available for Pickup
+--------------------------------------------------------
+Matches found: 1
+
+====================================================
+   COMMUNITY BOOK EXCHANGE COORDINATOR (CA2)
+====================================================
+1. Register new community book
+2. View all books
+3. Search by ID & run audit
+4. Update book status/details
+5. Search by title
+6. View books of one donor
+7. System statistics
+8. Exit
+Enter your choice (1-8): 
+Enter donor name: --------------------------------------------------------
+ Listing ID      : 101
+ Title           : The Alchemist
+ Author          : Paulo Coelho
+ Genre           : Fiction
+ Deposited By    : Rahul Sharma
+ Kiosk Location  : North-Wing-Shelf-A
+ Condition (1-5) : 4 / 5
+ Status          : Available for Pickup
+--------------------------------------------------------
+--------------------------------------------------------
+ Listing ID      : 103
+ Title           : Atomic Habits
+ Author          : James Clear
+ Genre           : Self-Help
+ Deposited By    : Rahul Sharma
+ Kiosk Location  : East-Shelf-B
+ Condition (1-5) : 2 / 5
+ Status          : Available for Pickup
+--------------------------------------------------------
+Books deposited: 2
+
+====================================================
+   COMMUNITY BOOK EXCHANGE COORDINATOR (CA2)
+====================================================
+1. Register new community book
+2. View all books
+3. Search by ID & run audit
+4. Update book status/details
+5. Search by title
+6. View books of one donor
+7. System statistics
+8. Exit
+Enter your choice (1-8): 
+Enter Listing ID to update: 
+[CURRENT RECORD at byte offset 448]
+--------------------------------------------------------
+ Listing ID      : 103
+ Title           : Atomic Habits
+ Author          : James Clear
+ Genre           : Self-Help
+ Deposited By    : Rahul Sharma
+ Kiosk Location  : East-Shelf-B
+ Condition (1-5) : 2 / 5
+ Status          : Available for Pickup
+--------------------------------------------------------
+Select field to update:
+1. Toggle Availability Status (Available <-> Claimed)
+2. Update Kiosk / Shelf Location
+3. Update Condition Grade (1 - 5)
+4. Cancel Update
+Enter choice (1-4): [INFO] Status changed to: Claimed / Picked Up
+
+[SUCCESS] Record ID 103 updated via seekp() at byte offset 448.
+
+====================================================
+   COMMUNITY BOOK EXCHANGE COORDINATOR (CA2)
+====================================================
+1. Register new community book
+2. View all books
+3. Search by ID & run audit
+4. Update book status/details
+5. Search by title
+6. View books of one donor
+7. System statistics
+8. Exit
+Enter your choice (1-8): 
+Enter Listing ID to update: 
+[CURRENT RECORD at byte offset 448]
+--------------------------------------------------------
+ Listing ID      : 103
+ Title           : Atomic Habits
+ Author          : James Clear
+ Genre           : Self-Help
+ Deposited By    : Rahul Sharma
+ Kiosk Location  : East-Shelf-B
+ Condition (1-5) : 2 / 5
+ Status          : Claimed / Picked Up
+--------------------------------------------------------
+Select field to update:
+1. Toggle Availability Status (Available <-> Claimed)
+2. Update Kiosk / Shelf Location
+3. Update Condition Grade (1 - 5)
+4. Cancel Update
+Enter choice (1-4): Enter new condition grade (1 - 5): 
+[SUCCESS] Record ID 103 updated via seekp() at byte offset 448.
+
+====================================================
+   COMMUNITY BOOK EXCHANGE COORDINATOR (CA2)
+====================================================
+1. Register new community book
+2. View all books
+3. Search by ID & run audit
+4. Update book status/details
+5. Search by title
+6. View books of one donor
+7. System statistics
+8. Exit
+Enter your choice (1-8): 
+Enter Listing ID to update: 
+[CURRENT RECORD at byte offset 0]
+--------------------------------------------------------
+ Listing ID      : 101
+ Title           : The Alchemist
+ Author          : Paulo Coelho
+ Genre           : Fiction
+ Deposited By    : Rahul Sharma
+ Kiosk Location  : North-Wing-Shelf-A
+ Condition (1-5) : 4 / 5
+ Status          : Available for Pickup
+--------------------------------------------------------
+Select field to update:
+1. Toggle Availability Status (Available <-> Claimed)
+2. Update Kiosk / Shelf Location
+3. Update Condition Grade (1 - 5)
+4. Cancel Update
+Enter choice (1-4): Enter new kiosk / shelf location (1 - 38 chars): 
+[SUCCESS] Record ID 101 updated via seekp() at byte offset 0.
+
+====================================================
+   COMMUNITY BOOK EXCHANGE COORDINATOR (CA2)
+====================================================
+1. Register new community book
+2. View all books
+3. Search by ID & run audit
+4. Update book status/details
+5. Search by title
+6. View books of one donor
+7. System statistics
+8. Exit
+Enter your choice (1-8): 
+Enter Listing ID to update: 
+[CURRENT RECORD at byte offset 224]
+--------------------------------------------------------
+ Listing ID      : 102
+ Title           : Wings of Fire
+ Author          : A P J Abdul Kalam
+ Genre           : Biography
+ Deposited By    : Priya Singh
+ Kiosk Location  : Kiosk-NorthBlock
+ Condition (1-5) : 5 / 5
+ Status          : Available for Pickup
+--------------------------------------------------------
+Select field to update:
+1. Toggle Availability Status (Available <-> Claimed)
+2. Update Kiosk / Shelf Location
+3. Update Condition Grade (1 - 5)
+4. Cancel Update
+Enter choice (1-4): [INFO] Update cancelled.
+
+====================================================
+   COMMUNITY BOOK EXCHANGE COORDINATOR (CA2)
+====================================================
+1. Register new community book
+2. View all books
+3. Search by ID & run audit
+4. Update book status/details
+5. Search by title
+6. View books of one donor
+7. System statistics
+8. Exit
+Enter your choice (1-8): 
+--- Register Book for Community Exchange ---
+Enter unique Listing ID (1 - 99999): [REJECTED] Duplicate key: Listing ID 101 already exists!
+
+====================================================
+   COMMUNITY BOOK EXCHANGE COORDINATOR (CA2)
+====================================================
+1. Register new community book
+2. View all books
+3. Search by ID & run audit
+4. Update book status/details
+5. Search by title
+6. View books of one donor
+7. System statistics
+8. Exit
+Enter your choice (1-8): 
+--- Register Book for Community Exchange ---
+Enter unique Listing ID (1 - 99999): Enter book title (2 - 58 chars): [ERROR] Title must be at least 2 characters.
+Enter book title (2 - 58 chars): [ERROR] Title cannot exceed 58 characters.
+Enter book title (2 - 58 chars): Enter author name (1 - 38 chars): [ERROR] Author cannot be empty.
+Enter author name (1 - 38 chars): Enter genre / category (1 - 28 chars): Enter donor / depositor name (1 - 38 chars): Enter kiosk / shelf location (e.g. North-Wing-Shelf-A): Enter condition grade (1:Poor 2:Fair 3:Good 4:Very Good 5:Like New): 
+[SUCCESS] Book persisted to ../data/books.dat with ID: 104
+
+====================================================
+   COMMUNITY BOOK EXCHANGE COORDINATOR (CA2)
+====================================================
+1. Register new community book
+2. View all books
+3. Search by ID & run audit
+4. Update book status/details
+5. Search by title
+6. View books of one donor
+7. System statistics
+8. Exit
+Enter your choice (1-8): 
+--- Register Book for Community Exchange ---
+Enter unique Listing ID (1 - 99999): Enter book title (2 - 58 chars): Enter author name (1 - 38 chars): Enter genre / category (1 - 28 chars): Enter donor / depositor name (1 - 38 chars): [REJECTED] RAHUL SHARMA has already deposited "the alchemist" (Listing ID 101).
+
+====================================================
+   COMMUNITY BOOK EXCHANGE COORDINATOR (CA2)
+====================================================
+1. Register new community book
+2. View all books
+3. Search by ID & run audit
+4. Update book status/details
+5. Search by title
+6. View books of one donor
+7. System statistics
+8. Exit
+Enter your choice (1-8): 
+Enter Listing ID to update: 
+[NOT FOUND] Listing ID 555 does not exist.
+
+====================================================
+   COMMUNITY BOOK EXCHANGE COORDINATOR (CA2)
+====================================================
+1. Register new community book
+2. View all books
+3. Search by ID & run audit
+4. Update book status/details
+5. Search by title
+6. View books of one donor
+7. System statistics
+8. Exit
+Enter your choice (1-8): 
+Exiting CA2 application. Data saved in ../data/books.dat.

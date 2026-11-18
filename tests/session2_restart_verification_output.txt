@@ -1,0 +1,142 @@
+
+====================================================
+   COMMUNITY BOOK EXCHANGE COORDINATOR (CA2)
+====================================================
+1. Register new community book
+2. View all books
+3. Search by ID & run audit
+4. Update book status/details
+5. Search by title
+6. View books of one donor
+7. System statistics
+8. Exit
+Enter your choice (1-8): 
+[STATISTICS] Total persistent community listings in file: 4
+[STORAGE]    Fixed binary record size: 224 bytes
+
+====================================================
+   COMMUNITY BOOK EXCHANGE COORDINATOR (CA2)
+====================================================
+1. Register new community book
+2. View all books
+3. Search by ID & run audit
+4. Update book status/details
+5. Search by title
+6. View books of one donor
+7. System statistics
+8. Exit
+Enter your choice (1-8): 
+============= PERSISTENT COMMUNITY BOOK LISTINGS =============
+--------------------------------------------------------
+ Listing ID      : 101
+ Title           : The Alchemist
+ Author          : Paulo Coelho
+ Genre           : Fiction
+ Deposited By    : Rahul Sharma
+ Kiosk Location  : Main-Gate-Kiosk
+ Condition (1-5) : 4 / 5
+ Status          : Available for Pickup
+--------------------------------------------------------
+--------------------------------------------------------
+ Listing ID      : 102
+ Title           : Wings of Fire
+ Author          : A P J Abdul Kalam
+ Genre           : Biography
+ Deposited By    : Priya Singh
+ Kiosk Location  : Kiosk-NorthBlock
+ Condition (1-5) : 5 / 5
+ Status          : Available for Pickup
+--------------------------------------------------------
+--------------------------------------------------------
+ Listing ID      : 103
+ Title           : Atomic Habits
+ Author          : James Clear
+ Genre           : Self-Help
+ Deposited By    : Rahul Sharma
+ Kiosk Location  : East-Shelf-B
+ Condition (1-5) : 4 / 5
+ Status          : Claimed / Picked Up
+--------------------------------------------------------
+--------------------------------------------------------
+ Listing ID      : 104
+ Title           : Clean Code
+ Author          : Robert C. Martin
+ Genre           : Programming
+ Deposited By    : Amit Verma
+ Kiosk Location  : Tech-Shelf-1
+ Condition (1-5) : 5 / 5
+ Status          : Available for Pickup
+--------------------------------------------------------
+Total persistent records shown: 4
+
+====================================================
+   COMMUNITY BOOK EXCHANGE COORDINATOR (CA2)
+====================================================
+1. Register new community book
+2. View all books
+3. Search by ID & run audit
+4. Update book status/details
+5. Search by title
+6. View books of one donor
+7. System statistics
+8. Exit
+Enter your choice (1-8): 
+Enter Listing ID to search: 
+[MATCH FOUND at byte offset 0]
+--------------------------------------------------------
+ Listing ID      : 101
+ Title           : The Alchemist
+ Author          : Paulo Coelho
+ Genre           : Fiction
+ Deposited By    : Rahul Sharma
+ Kiosk Location  : Main-Gate-Kiosk
+ Condition (1-5) : 4 / 5
+ Status          : Available for Pickup
+--------------------------------------------------------
+
+[AUDIT LOG] Quality audit for Listing #101
+ - Title length : 13 characters
+ - Condition    : Premium / Recommended for Community Spotlight
+
+====================================================
+   COMMUNITY BOOK EXCHANGE COORDINATOR (CA2)
+====================================================
+1. Register new community book
+2. View all books
+3. Search by ID & run audit
+4. Update book status/details
+5. Search by title
+6. View books of one donor
+7. System statistics
+8. Exit
+Enter your choice (1-8): 
+Enter Listing ID to search: 
+[MATCH FOUND at byte offset 448]
+--------------------------------------------------------
+ Listing ID      : 103
+ Title           : Atomic Habits
+ Author          : James Clear
+ Genre           : Self-Help
+ Deposited By    : Rahul Sharma
+ Kiosk Location  : East-Shelf-B
+ Condition (1-5) : 4 / 5
+ Status          : Claimed / Picked Up
+--------------------------------------------------------
+
+[AUDIT LOG] Quality audit for Listing #103
+ - Title length : 13 characters
+ - Condition    : Premium / Recommended for Community Spotlight
+
+====================================================
+   COMMUNITY BOOK EXCHANGE COORDINATOR (CA2)
+====================================================
+1. Register new community book
+2. View all books
+3. Search by ID & run audit
+4. Update book status/details
+5. Search by title
+6. View books of one donor
+7. System statistics
+8. Exit
+Enter your choice (1-8): 
+Exiting CA2 application. Data saved in ../data/books.dat.

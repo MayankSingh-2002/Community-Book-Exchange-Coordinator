@@ -1,0 +1,72 @@
+2
+7
+1
+101
+The Alchemist
+Paulo Coelho
+Fiction
+Rahul Sharma
+North-Wing-Shelf-A
+4
+1
+102
+Wings of Fire
+A P J Abdul Kalam
+Biography
+Priya Singh
+Kiosk-NorthBlock
+5
+1
+103
+Atomic Habits
+James Clear
+Self-Help
+Rahul Sharma
+East-Shelf-B
+2
+7
+2
+3
+102
+3
+999
+5
+habit
+6
+rahul sharma
+4
+103
+1
+4
+103
+3
+4
+4
+101
+2
+Main-Gate-Kiosk
+4
+102
+4
+1
+101
+1
+104
+X
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Clean Code
+
+Robert C. Martin
+Programming
+Amit Verma
+Tech-Shelf-1
+5
+1
+105
+the alchemist
+Paulo Coelho
+Fiction
+RAHUL SHARMA
+4
+555
+8
